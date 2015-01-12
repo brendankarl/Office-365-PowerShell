@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Groups>
+<Group>
+	<Name>GroupOne</Name>
+	<TermSets>
+		<Name>TermSetOne</Name>
+		<Terms>
+			<Term>4</Term>
+			<Term>5</Term>
+			<Term>6</Term>
+		</Terms>
+	</TermSets>
+	<TermSets>
+		<Name>TermSetTwo</Name>
+		<Terms>
+			<Term>7</Term>
+			<Term>8</Term>
+			<Term>9</Term>
+		</Terms>
+	</TermSets>
+</Group>
+<Group>
+	<Name>GroupTwo</Name>
+	<TermSets>
+		<Name>TermSetThree</Name>
+		<Terms>
+			<Term>10</Term>
+			<Term>11</Term>
+			<Term>12</Term>
+		</Terms>
+	</TermSets>
+	<TermSets>
+		<Name>TermSetFour</Name>
+		<Terms>
+			<Term>13</Term>
+			<Term>14</Term>
+			<Term>15</Term>
+		</Terms>
+	</TermSets>
+</Group>
+</Groups>
