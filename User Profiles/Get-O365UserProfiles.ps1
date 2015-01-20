@@ -1,6 +1,5 @@
-﻿#Specify tenant admin and URL
+﻿#Specify tenant admin
 $User = ""
-$TenantURL = ""
 
 #Add references to SharePoint client assemblies and authenticate to Office 365 site - required for CSOM
 Add-Type -Path "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll"
