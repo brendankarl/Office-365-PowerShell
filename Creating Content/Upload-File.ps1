@@ -20,7 +20,7 @@ $Context.Load($List)
 $Context.ExecuteQuery()
 
 #Upload file
-Foreach ($File in (dir $Folder))
+Foreach ($File in (dir $Folder -File))
 {
 $FileStream = [System.IO.File]::ReadAllBytes($File.FullName)
 $FileCreationInfo = New-Object Microsoft.SharePoint.Client.FileCreationInformation

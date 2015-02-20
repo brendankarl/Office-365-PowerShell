@@ -20,7 +20,7 @@ $Context.Load($List)
 $Context.ExecuteQuery()
 
 #Upload file
-Foreach ($File in (dir $Folder))
+Foreach ($File in (dir $Folder -File))
 {
 $FileStream = New-Object IO.FileStream($File.FullName,[System.IO.FileMode]::Open)
 $FileCreationInfo = New-Object Microsoft.SharePoint.Client.FileCreationInformation
