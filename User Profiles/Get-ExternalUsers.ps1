@@ -2,7 +2,7 @@
 $User = ""
 $TenantURL = ""
 
-#O365 Cmdlets to connet to a tenant
+#O365 Cmdlets to connect to a tenant
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking -ErrorAction SilentlyContinue
 Connect-SPOService -Url $TenantURL -credential $User
 
