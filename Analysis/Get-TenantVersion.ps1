@@ -6,7 +6,7 @@ Add-Type -Path "C:\Program Files\Common Files\Microsoft Shared\Web Server Extens
 $Username = Read-Host -Prompt "Please enter your username"
 $Password = Read-Host -Prompt "Please enter your password" -AsSecureString
 
-#Connect to root Site Collection snd obtain version
+#Connect to root Site Collection and obtain version
 $Site = "https://tenant.sharepoint.com"
 $Context = New-Object Microsoft.SharePoint.Client.ClientContext($Site)
 $Creds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username,$Password)
